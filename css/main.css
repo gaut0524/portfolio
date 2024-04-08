@@ -1,0 +1,145 @@
+/* Crimson Text */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* define global variables (colour tone base on the our colour palette) and customize bootstrap 5 variables */
+:root {
+  --base-background-color-dark: #501E22;
+  --base-background-color-normal: #B1837B;
+  --base-background-color-light: #EBDAD7;
+  --dialogue-background-color-default: rgba(105, 91, 91, 0.6);
+  --dialogue-background-color-hover: rgba(105, 91, 91, 1);
+  --button-background-color-default: rgba(255, 255, 255, 1);
+  --button-background-color-pushed: rgba(30, 30, 30, 1);
+  --bs-body-font-family: "Crimson Text", var(--bs-body-font-family);
+}
+
+/* remove rounding from cards, buttons and inputs for default bootstrap */
+.card,
+.btn,
+.form-control {
+  border-radius: 0;
+}
+
+body {
+}
+
+/* customize bootstrap 5 navbar background colors */
+.navbar {
+  background-color: var(--base-background-color-dark);
+}
+
+.home-slogan {
+  background-color: var(--base-background-color-dark);
+  background-image: url("../images/home-slogen-bg.png");
+  background-position-y: bottom;
+}
+.recentworks {
+  background-color: var(--base-background-color-normal);
+}
+
+.recentworks > .row > .col-md {
+  background-color: var(--base-background-color-dark);
+}
+/*since bootstrap position is not responsive, we need creates additional responsive one*/
+@media (min-width: 768px) {
+  .position-md-only-absolute {
+    position: relative;
+    overflow: hidden;
+  }
+  .position-md-only-absolute-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.footer {
+  background-color: var(--base-background-color-dark);
+}
+
+.services {
+  background-color: var(--bs-dark);
+}
+
+.services .service-show {
+  background-color: var(--base-background-color-normal);
+}
+
+/* in desktop mode fix the height */
+@media (min-width: 768px) {
+	.services .carousel
+	{
+		height: 38rem;
+	}
+}
+
+.services .carousel-item {
+	/* make more padding for arrows */
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.services .carousel-item img {
+  max-height: 38rem;
+  
+}
+
+.services-description {
+  background-color: var(--base-background-color-dark);
+}
+.services-rate {
+  background-color: var(--base-background-color-light);
+}
+
+.services-rate .col-md {
+  background-color: var(--dialogue-background-color-default);
+}
+.services-rate .col-md:hover {
+  background-color: var(--dialogue-background-color-hover);
+}
+
+.aboutme {
+  background-color: black;
+}
+.aboutme .btn {
+  background-color: var(--base-background-color-normal);
+}
+
+.aboutme .profile-photo{
+	max-height: 18rem;
+}
+
+
+.blog {
+  background-color: var(--base-background-color-normal);
+}
+.blog img {
+}
+.contact {
+  background-color: black;
+}
+.contactform {
+  background-color: var(--base-background-color-light);
+}
+.contactform i {
+  background-color: var(--base-background-color-dark);
+  color: var(--base-background-color-light);
+}
+
+.faq {
+  background-color: var(--base-background-color-light);
+}
+
+.faq .col-md {
+  background-color: var(--dialogue-background-color-default);
+}
+.faq .col-md:hover {
+  background-color: var(--dialogue-background-color-hover);
+}
+
+.contact-submission {
+  background-color: var(--base-background-color-light);
+  height: 80vh;
+}
+
