@@ -1,7 +1,7 @@
 /* Crimson Text */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-/* define global variables (colour tone base on the our colour palette) and customize bootstrap 5 variables */
+/* define global variables and bootstrap 5 variables */
 :root {
   --base-background-color-dark: #501E22;
   --base-background-color-normal: #B1837B;
@@ -40,7 +40,8 @@ body {
 .recentworks > .row > .col-md {
   background-color: var(--base-background-color-dark);
 }
-/*since bootstrap position is not responsive, we need creates additional responsive one*/
+
+/* creates additional bootstrap position for responsiveness  */
 @media (min-width: 768px) {
   .position-md-only-absolute {
     position: relative;
@@ -54,10 +55,12 @@ body {
   }
 }
 
+/* footer styles */
 .footer {
   background-color: var(--base-background-color-dark);
 }
 
+/* styling for sercices section */
 .services {
   background-color: var(--bs-dark);
 }
@@ -66,7 +69,8 @@ body {
   background-color: var(--base-background-color-normal);
 }
 
-/* in desktop mode fix the height */
+/* custom styling for the image carousel*/
+/* to fix height in desktop */
 @media (min-width: 768px) {
 	.services .carousel
 	{
@@ -85,6 +89,7 @@ body {
   
 }
 
+/* styling for services description and rates */
 .services-description {
   background-color: var(--base-background-color-dark);
 }
@@ -99,6 +104,7 @@ body {
   background-color: var(--dialogue-background-color-hover);
 }
 
+/* Styling for other sections */
 .aboutme {
   background-color: black;
 }
@@ -109,7 +115,6 @@ body {
 .aboutme .profile-photo{
 	max-height: 18rem;
 }
-
 
 .blog {
   background-color: var(--base-background-color-normal);
@@ -142,4 +147,3 @@ body {
   background-color: var(--base-background-color-light);
   height: 80vh;
 }
-

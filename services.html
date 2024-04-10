@@ -1,184 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Services</title>
-		<!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-		<!-- Animate.css CSS -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-		<!-- Bootstrap Icons -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-		<link href="./css/main.css" rel="stylesheet">
-	</head>
-	<body>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-		<!-- The main container-->
-		<div>
-			<div class="container">
-				<!--nav bar -->
-				<nav class="navbar navbar-expand-sm" data-bs-theme="dark">
-					<div class="container">
-						<a class="navbar-brand" href="#">
-							<img src="./images/aa-logo.png" alt="Anita's Artistry Logo" width="60" height="60">
-						</a>
-						<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="collapsibleNavId">
-							<ul class="navbar-nav me-auto mx-auto mt-2 mt-lg-0 gap-md-5">
-								<li class="nav-item">
-									<a class="nav-link " href="./index.html">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="./services.html">Services <span class="visually-hidden">(current)</span>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="./about.html">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="./contact.html">Contact</a>
-								</li>
-							</ul>
-							<form class="d-flex my-2 my-lg-0 input-group w-auto" data-bs-theme="light">
-								<input class="form-control rounded-start-2" type="text" placeholder="Search" aria-describedby="search-addon" />
-								<span class="input-group-text border-0" id="search-addon">
-									<i class="bi bi-search"></i>
-								</span>
-							</form>
-						</div>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Services</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- Animate.css CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+	<!-- Bootstrap Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+	<link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+	</script>
+	<!-- The main container-->
+	<div>
+		<div class="container">
+			<!--nav bar -->
+			<nav class="navbar navbar-expand-sm" data-bs-theme="dark">
+				<div class="container">
+					<a class="navbar-brand" href="index.html">
+						<img src="./images/aa-logo.png" alt="Anita's Artistry Logo" width="60" height="60">
+					</a>
+					<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavId">
+						<ul class="navbar-nav me-auto mx-auto mt-2 mt-lg-0 gap-md-5">
+							<li class="nav-item">
+								<a class="nav-link " href="./index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="./services.html">Services <span
+										class="visually-hidden">(current)</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./about.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./contact.html">Contact</a>
+							</li>
+						</ul>
+						<form class="d-flex my-2 my-lg-0 input-group w-auto" data-bs-theme="light">
+							<input class="form-control rounded-start-2" type="text" placeholder="Search"
+								aria-label="Search" aria-describedby="search-addon">
+							<span class="input-group-text border-0" id="search-addon">
+								<i class="bi bi-search"></i>
+							</span>
+						</form>
 					</div>
-				</nav>
-				<!-- Head part-->
-				<div class="container services p-5" data-bs-theme="dark">
-					<h1 class="text-white">Services</h1>
-					<div class="row gap-3">
-						<div class="col-md service-show">
-							<h2 class="text-center">Branding</h2>
-							<div id="carouselId1" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-inner" role="listbox">
-									<div class="carousel-item active">
-										<picture>
-											<!-- load the smaller images when width is smaller than 768px-->
-											<source media="(min-width: 768px)" srcset="./images/services-asset_1-960.png, ./images/services-asset_1-1440.png 2x" />
-											<source media="(max-width: 768px)" srcset="./images/services-asset_1-480.png, ./images/services-asset_1-960.png 2x" />
-											<!-- Fallback images -->
-											<img src="./images/services-asset_1.png" class="object-fit-contain w-100 d-block" alt="service show brand example" />
-										</picture>
-								
-									</div>
-									<div class="carousel-item">
-										<picture>
-											<!-- load the smaller images when width is smaller than 768px-->
-											<source media="(min-width: 768px)" srcset="./images/services-asset_2-960.png, ./images/services-asset_2-1440.png 2x" />
-											<source media="(max-width: 768px)" srcset="./images/services-asset_2-480.png, ./images/services-asset_2-960.png 2x" />
-											<!-- Fallback images -->
-											<img src="./images/services-asset_2.png" class="object-fit-contain w-100 d-block" alt="service show brand example 2" />
-										</picture>
-									</div>
+				</div>
+			</nav>
+			<!-- Head part-->
+			<div class="container services p-5" data-bs-theme="dark">
+				<h1 class="text-white">Services</h1>
+				<div class="row gap-3">
+					<div class="col-md service-show">
+						<h2 class="text-center">Branding</h2>
+						<!-- Adds the branding carousel -->
+						<div id="carouselId1" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<picture>
+										<!-- load the smaller images when width is smaller than 768px-->
+										<!-- branding image 1 -->
+										<source media="(min-width: 768px)"
+											srcset="./images/services-asset_1-960.png, ./images/services-asset_1-1440.png 2x" />
+										<source media="(max-width: 768px)"
+											srcset="./images/services-asset_1-480.png, ./images/services-asset_1-960.png 2x" />
+										<!-- Fallback images -->
+										<img src="./images/services-asset_1.png"
+											class="object-fit-contain w-100 d-block" alt="service show brand example" />
+									</picture>
+
 								</div>
-								<button class="carousel-control-prev" type="button" data-bs-target="#carouselId1" data-bs-slide="prev">
-									<span class="bi bi-chevron-left display-5" aria-hidden="true"></span>
-									<span class="visually-hidden">Previous</span>
-								</button>
-								<button class="carousel-control-next" type="button" data-bs-target="#carouselId1" data-bs-slide="next">
-									<span class="bi bi-chevron-right display-5" aria-hidden="true"></span>
-									<span class="visually-hidden">Next</span>
-								</button>
-							</div>
-						</div>
-						<div class="col-md service-show">
-							<h2 class="text-center">Books & illustrations</h2>
-							<div id="carouselId2" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-inner" role="listbox">
-									<div class="carousel-item active">
-										<picture>
-											<!-- load the smaller images when width is smaller than 768px-->
-											<source media="(min-width: 768px)" srcset="./images/services-snek-960.png, ./images/services-snek-1440.png 2x" />
-											<source media="(max-width: 768px)" srcset="./images/services-snek-480.png, ./images/services-snek-960.png 2x" />
-											<!-- Fallback images -->
-											<img src="./images/services-snek.png" class="object-fit-contain w-100 d-block" alt="service show snek" />
-										</picture>
-									</div>
-									<div class="carousel-item">
-										<picture>
-											<!-- load the smaller images when width is smaller than 768px-->
-											<source media="(min-width: 768px)" srcset="./images/services-fairy-960.png, ./images/services-fairy-1440.png 2x" />
-											<source media="(max-width: 768px)" srcset="./images/services-fairy-480.png, ./images/services-fairy-960.png 2x" />
-											<!-- Fallback images -->
-											<img src="./images/services-fairy.png" class="object-fit-contain w-100 d-block" alt="service show fairy" />
-										</picture>
-									</div>
+								<div class="carousel-item">
+									<picture>
+										<!-- load the smaller images when width is smaller than 768px-->
+										<!-- branding image 2 -->
+										<source media="(min-width: 768px)"
+											srcset="./images/services-asset_2-960.png, ./images/services-asset_2-1440.png 2x" />
+										<source media="(max-width: 768px)"
+											srcset="./images/services-asset_2-480.png, ./images/services-asset_2-960.png 2x" />
+										<!-- Fallback images -->
+										<img src="./images/services-asset_2.png"
+											class="object-fit-contain w-100 d-block"
+											alt="service show brand example 2" />
+									</picture>
 								</div>
-								<button class="carousel-control-prev" type="button" data-bs-target="#carouselId2" data-bs-slide="prev">
-									<span class="bi bi-chevron-left display-5" aria-hidden="true"></span>
-									<span class="visually-hidden">Previous</span>
-								</button>
-								<button class="carousel-control-next" type="button" data-bs-target="#carouselId2" data-bs-slide="next">
-									<span class="bi bi-chevron-right display-5" aria-hidden="true"></span>
-									<span class="visually-hidden">Next</span>
-								</button>
 							</div>
+							<!-- branding carousel controls -->
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselId1"
+								data-bs-slide="prev">
+								<span class="bi bi-chevron-left display-5" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselId1"
+								data-bs-slide="next">
+								<span class="bi bi-chevron-right display-5" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+					<!-- adds the books & illustrations carousel -->
+					<div class="col-md service-show">
+						<h2 class="text-center">Books & illustrations</h2>
+						<div id="carouselId2" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<picture>
+										<!-- load the smaller images when width is smaller than 768px-->
+										<!-- illustrations/books image 1 -->
+										<source media="(min-width: 768px)"
+											srcset="./images/services-snek-960.png, ./images/services-snek-1440.png 2x" />
+										<source media="(max-width: 768px)"
+											srcset="./images/services-snek-480.png, ./images/services-snek-960.png 2x" />
+										<!-- Fallback images -->
+										<img src="./images/services-snek.png" class="object-fit-contain w-100 d-block"
+											alt="service show snek" />
+									</picture>
+								</div>
+								<div class="carousel-item">
+									<picture>
+										<!-- load the smaller images when width is smaller than 768px-->
+										<!-- illustrations/books image 2 -->
+										<source media="(min-width: 768px)"
+											srcset="./images/services-fairy-960.png, ./images/services-fairy-1440.png 2x" />
+										<source media="(max-width: 768px)"
+											srcset="./images/services-fairy-480.png, ./images/services-fairy-960.png 2x" />
+										<!-- Fallback images -->
+										<img src="./images/services-fairy.png" class="object-fit-contain w-100 d-block"
+											alt="service show fairy" />
+									</picture>
+								</div>
+							</div>
+							<!-- illustrations & books carousel controls -->
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselId2"
+								data-bs-slide="prev">
+								<span class="bi bi-chevron-left display-5" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselId2"
+								data-bs-slide="next">
+								<span class="bi bi-chevron-right display-5" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
 						</div>
 					</div>
 				</div>
-				<div class="container services-description text-white p-5">
-					<p>Welcome to my services page! I offer two main services to help bring your creative vision to life: Creative Branding and Illustrations. My Creative Branding service is tailored to businesses and individuals looking to establish or enhance their brand identity. From logo design to brand messaging, I work closely with clients to develop cohesive and impactful branding solutions that resonate with their target audience. My Illustrations service caters to authors, publishers, and creative professionals seeking captivating visuals for their projects. Whether you need illustrations for children's books, marketing materials, or digital content, I prioritize creating eye-catching and engaging artwork that tells your story in a unique way. Please explore the rates below to learn more about pricing options for each service.</p>
-				</div>
-				<div class="container services-rate p-5">
-					<h1>Rates</h1>
-					<div class="row gap-3">
-						<div class="col-md">
-							<div class="p-3 text-white">
-								<p class="">Creative Branding Package - $300:</p>
-								<p class="">Includes logo design, brand colour palette, typography selection, and brand messaging consultation.</p>
-							</div>
-						</div>
-						<div class="col-md">
-							<div class="text-white p-3 ">
-								<p class="">Illustrations for Children's Book - $50 per illustration:</p>
-								<p class="">Custom illustrations tailored to the theme and style of your children's book, including character design and scene illustration</p>
-							</div>
-						</div>
-						<div class="col-md">
-							<div class="p-3 text-white">
-								<p class="">Brand Identity Development - $500</p>
-								<p class="">Comprehensive branding package including logo design, brand guidelines, business card design, and social media branding.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- footer -->
-				<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 border-top footer" data-bs-theme="dark">
-					<div class="col-md-4 d-flex align-items-center">
-						<span class="mb-3 mb-md-0 text-body-secondary">© Anita Gautama, 2024</span>
-					</div>
-					<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-						<li class="ms-3">
-							<a class="text-body-secondary" href="https://www.instagram.com/">
-								<i class="bi bi-instagram"></i>
-							</a>
-						</li>
-						<li class="ms-3">
-							<a class="text-body-secondary" href="https://www.twitter.com/">
-								<i class="bi bi-twitter-x"></i>
-							</a>
-						</li>
-						<li class="ms-3">
-							<a class="text-body-secondary" href="https://www.facebook.com/">
-								<i class="bi bi-facebook"></i>
-							</a>
-						</li>
-						<li class="ms-3">
-							<a class="text-body-secondary" href="https://www.discord.com/">
-								<i class="bi bi-discord"></i>
-							</a>
-						</li>
-					</ul>
-				</footer>
 			</div>
+			<!-- Begins services content  -->
+			<div class="container services-description text-white p-5">
+				<p>Welcome to my services page! I offer two main services to help bring your creative vision to life:
+					Creative Branding and Illustrations. My Creative Branding service is tailored to businesses and
+					individuals looking to establish or enhance their brand identity. From logo design to brand
+					messaging, I work closely with clients to develop cohesive and impactful branding solutions that
+					resonate with their target audience. My Illustrations service caters to authors, publishers, and
+					creative professionals seeking captivating visuals for their projects. Whether you need
+					illustrations for children's books, marketing materials, or digital content, I prioritize creating
+					eye-catching and engaging artwork that tells your story in a unique way. Please explore the rates
+					below to learn more about pricing options for each service.</p>
+			</div>
+			<div class="container services-rate p-5">
+				<h1>Rates</h1>
+				<div class="row gap-3">
+					<div class="col-md">
+						<div class="p-3 text-white">
+							<p class="">Creative Branding Package - $300:</p>
+							<p class="">Includes logo design, brand colour palette, typography selection, and brand
+								messaging consultation.</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="text-white p-3 ">
+							<p class="">Illustrations for Children's Book - $50 per illustration:</p>
+							<p class="">Custom illustrations tailored to the theme and style of your children's book,
+								including character design and scene illustration</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="p-3 text-white">
+							<p class="">Brand Identity Development - $500</p>
+							<p class="">Comprehensive branding package including logo design, brand guidelines, business
+								card design, and social media branding.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- footer with all social media icons, text, and links -->
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 border-top footer"
+				data-bs-theme="dark">
+				<div class="col-md-4 d-flex align-items-center">
+					<span class="mb-3 mb-md-0 text-body-secondary">© Anita Gautama, 2024</span>
+				</div>
+				<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://www.instagram.com/">
+							<i class="bi bi-instagram"></i>
+							<span class="visually-hidden">Instagram</span>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://www.twitter.com/">
+							<i class="bi bi-twitter-x"></i>
+							<span class="visually-hidden">Twitter</span>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://www.facebook.com/">
+							<i class="bi bi-facebook"></i>
+							<span class="visually-hidden">FaceBook</span>
+						</a>
+					</li>
+					<li class="ms-3">
+						<a class="text-body-secondary" href="https://www.discord.com/">
+							<i class="bi bi-discord"></i>
+							<span class="visually-hidden">Discord</span>
+						</a>
+					</li>
+				</ul>
+			</footer>
 		</div>
-	</body>
+	</div>
+</body>
+
 </html>
