@@ -17,7 +17,7 @@ Another challenge of mine revolved around ensuring accessibility compliance, eve
 
 
 ### UX Design vs. Website Development
-A key learning from this project was the distinction between UX design and website development. While my Figma prototype served as a solid foundation, I realized I needed to prioritize the importance of refining design elements for a tighter and cleaner website layout. Consistency emerged as a crucial aspect, leading me to making adjustments such as standardizing button sizes for enhanced user experience. Additionally, I ommitted the leaves for the sake of a cleaner website so it didn't take away from my design, 
+A key learning from this project was the distinction between UX design and website development. While my Figma prototype served as a solid foundation, I realized I needed to prioritize the importance of refining design elements for a tighter and cleaner website layout. Consistency emerged as a crucial aspect, leading me to making adjustments such as standardizing button sizes for enhanced user experience. I changed my mobile navigation as I thought it'd be best I have a drop down hamburger menu, rather than a hamburger menu that takes up an entire page. 
 
 ### Testing Limits and Capabilities
 Developing my portfolio provided an opportunity to test my limits and capabilities. Despite encountering challenges, I managed to translate my design vision into reality, achieving outcomes that exceeded my expectations. The process was both tough and rewarding, allowing me to push boundaries and refine my skills.
@@ -43,6 +43,9 @@ Developing my portfolio provided an opportunity to test my limits and capabiliti
 ## Attribution
 All images and illustrations used in the portfolio are created by me. Additionally, all branding content is original and developed by me.
 
----
+### Figma File
+- [Anita Gautama's Figma Link](https://www.figma.com/file/JTtmnAfz3trb0eDbqVJIT2/Gautama_Anita_hi-fi.fig-services?type=design&node-id=0%3A1&mode=design&t=RcVUclHe9COghD8s-1)
+
+I will include mny Figma File in the BrightSpace Submission, too.
 
 By Anita Gautama
