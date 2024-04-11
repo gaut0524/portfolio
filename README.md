@@ -46,6 +46,12 @@ All images and illustrations used in the portfolio are created by me. Additional
 ### Figma File
 - [Anita Gautama's Figma Link](https://www.figma.com/file/JTtmnAfz3trb0eDbqVJIT2/Gautama_Anita_hi-fi.fig-services?type=design&node-id=0%3A1&mode=design&t=RcVUclHe9COghD8s-1)
 
+Additionally, I have included my PDF of my wireframes in the images folder.
+
 I will include mny Figma File in the BrightSpace Submission, too.
 
+Thank you for this semester! :D
+
 By Anita Gautama
+
+
